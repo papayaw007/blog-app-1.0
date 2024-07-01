@@ -5,7 +5,7 @@ import useFetch from "./useFetch";
 
 const Home = () => {
 
-    const { data:blogs, isPending, error} = useFetch("https://blog-app-1-0-lilac.vercel.app/blogs");
+    const { data:blogs, isPending, error} = useFetch("https://blog-app-1-0-lilac.vercel.app");
 
     return ( 
         <div className="home">
